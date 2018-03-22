@@ -4,9 +4,7 @@
 /.idea
 Homestead.json
 Homestead.yaml
-.env
-/public/css
-/public/js
-/public/fonts
+
+
 /public/mix-manifest.json
 npm-debug.log

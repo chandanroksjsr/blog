@@ -24,12 +24,12 @@
                     @endif
                 </ul>
                 <div class="links">
-                    <a href="{{ url('link') }}">{{ lang('Links') }}</a>
+                   Let's Make India Superpower
                 </div>
             </div>
         </div>
     </div>
     <div class="copy-right text-center">
-        <span>{!! config('blog.footer.meta') !!}</span>
+        <span>Made with <i class="fa fa-heart"></i> by Team DigiVoter</span>
     </div>
 </footer>

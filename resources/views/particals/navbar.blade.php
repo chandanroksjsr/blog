@@ -1,7 +1,7 @@
-<nav class="navbar navbar-expand-lg navbar-dark">
+<nav class="navbar navbar-expand-lg navbar-light" style="background: #fff;">
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
-            {{ config('app.name') }}
+        <b>   {{ config('app.name') }}</b>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#app-navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>
@@ -28,7 +28,7 @@
                     <li class="nav-item"><a class="nav-link" href="{{ url('register') }}">{{ lang('Register') }}</a></li>
                 @else
                     <li class="nav-item notification">
-                        <a class="nav-link" href="{{ url('user/notification') }}"><i class="fas fa-bell">
+                        <a class="nav-link" href="{{ url('user/notification') }}"><i class="fas fa-bell" style="color: #597289;">
                             <span class="new"
                             @if (Auth::user()->unreadNotifications->count() > 0)
                             style='display: block'
@@ -38,7 +38,7 @@
                         </i></a>
                     </li>
                     <li class="nav-item dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="color: #597289;">
                             {{ Auth::user()->nickname ?: Auth::user()->name }}
                             <b class="caret"></b>&nbsp;&nbsp;
                             <img class="avatar rounded-circle" src="{{ Auth::user()->avatar }}">

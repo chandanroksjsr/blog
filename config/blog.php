@@ -13,8 +13,8 @@ return [
 
     // Meta
     'meta' => [
-        'keywords' => 'PJ Blog,blog,pigjian,laravel,vuejs',
-        'description' => 'Nothing is impossible in PJ Blog'
+        'keywords' => 'DigiVoter Blog,blog,DigiVoter,Politics,Voting',
+        'description' => 'Lets Make India SuperPower'
     ],
 
     // Social Share
@@ -33,8 +33,8 @@ return [
 
     // Article Page
     'article' => [
-        'title'       => 'Nothing is impossible.',
-        'description' => 'https://pigjian.com',
+        'title'       => 'LETS MAKE INDIA SUPERPOWER.',
+        'description' => '',
         'number'      => 15,
         'sort'        => 'desc',
         'sortColumn'  => 'published_at',
